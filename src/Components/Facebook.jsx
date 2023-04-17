@@ -54,7 +54,8 @@ function Facebook(){
                     $3k - $6k Additional $249
                     </p>
                     <div className="additional">
-                      <p className="text-left"><i class="fa-solid fa-circle list-icon fa-xs"></i>  Additional - $30 Per Video (Around 120sec) Script Included<br></br>
+                      <p className="text-center"><i class="fa-solid fa-circle list-icon fa-xs"></i>  Additional - $30 Per Video (Around 120sec) Script Included<br></br>
+                      <br></br>
                       <i class="fa-solid fa-circle list-icon fa-xs"></i>  Additional - UGC Content Creator = $100 Extra / Video</p>
                     </div>
                     <br></br>

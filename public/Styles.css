@@ -194,7 +194,8 @@
   background-image: linear-gradient(90deg,#ec6464,#eecc0b 33%,#3dd875 66%,#31b3ec);
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;  font-size: 1.5rem;
+  -webkit-text-fill-color: transparent;  
+  font-size: 1.5rem;
 }
 .book-btn{
   font-size: 1.3rem;
@@ -680,7 +681,7 @@ footer{
   border-radius: 10px;
   width: 600px;
   margin: auto;
-  height: 100px;
+  height: 120px;
   padding: 15px;
   padding-left: 30px;
   margin-bottom: 3%;
@@ -1143,17 +1144,22 @@ footer{
     font-size: 1.1rem;
   }
   .features{
-    text-align: left;
+    text-align: center;
+  }
+  .features li i{
+    display: none;
   }
   .offers{
     margin: auto;
   }
   .list{
     margin: auto;
+    width: 300px;
   }
   .list li{
     font-size: 0.9rem;
     margin-top: 15px;
+    padding: 0%;
   }
   .list-1 li{
     font-size: 0.9rem;
@@ -1161,18 +1167,24 @@ footer{
   }
   .list-1{
     margin: auto;
+    width: 300px;
+    padding-left: 3%;
   }
   .f-list{
     margin: auto;
+    padding-left: 1%;
   }
   .g-list{
     margin: auto;
+    padding-left: 1%;
   }
   .t-list{
     margin: auto;
+    padding-left: 1%;
   }
   .t-list-1{
     margin: auto;
+    padding-left: 1%;
   }
   .ad-btn-div{
     text-align: center;
@@ -1187,22 +1199,24 @@ footer{
   .additional{
     width: 350px;
     overflow: hidden;
-    padding-bottom: 31%;
+    padding-bottom: 40%;
+    text-align: center;
   }
   .additional p{
-    font-size: 0.8rem;
-    
-    text-align: left;
+    font-size: 0.9rem;
+    text-align: center;
   }
   .additional-t{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     width: 360px;
-    height: 120px;
+    height: 130px;
     overflow-x: visible;
-
+  }
+  .additional-t p i{
+    display: none;
   }
   .additional p i{
-    margin-right: 5px;
+    display: none;
   }
   .qns{
     margin-top: 10%;

@@ -70,7 +70,7 @@ function Google(){
                        <li><i class="fa-solid fa-circle list-icon fa-xs"></i>  New Features</li>
                        <li><i class="fa-solid fa-circle list-icon fa-xs"></i>  CRM included</li>
                        <li><i class="fa-solid fa-circle list-icon fa-xs"></i>  landing Page included</li>
-                       </ul>                       
+                       </ul> 
                        <ul className="list-1" data-aos="fade-left">
                        <li><i class="fa-solid fa-circle list-icon fa-xs"></i>  Remarketing Ads</li>
                        <li><i class="fa-solid fa-circle list-icon fa-xs"></i>  Ad Scheduling</li>

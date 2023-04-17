@@ -56,8 +56,8 @@ function TikTok(){
                     $3k - $6k Additional $251
                     </p>
                     <div className="additional-t">
-                      <p className="text-left"><i class="fa-solid fa-circle list-icon fa-xs"></i>   UGC Content Creator = $100 Extra / Video<br></br>
-                      <i class="fa-solid fa-circle list-icon fa-xs"></i>   $40 Per Video (Around 120sec)<br></br>
+                      <p className="text-center"><i class="fa-solid fa-circle list-icon fa-xs"></i>   UGC Content Creator = $100 Extra / Video<br></br><br></br>
+                      <i class="fa-solid fa-circle list-icon fa-xs"></i>   $40 Per Video (Around 120sec)<br></br><br></br>
                       <i class="fa-solid fa-circle list-icon fa-xs"></i>   3 Videos Minimum Required<br></br></p>
                     </div>
                     <br></br>

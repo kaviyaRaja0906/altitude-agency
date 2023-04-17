@@ -27,8 +27,8 @@ function Sidebar(props){
         Home
       </a>
       <div className="dropdown">
-               <button className="dropbtn" onClick={onClick}>Services <i class="fa-solid fa-chevron-down"></i></button>
-                 <div className="dropdown-content"  id="db">
+               <button className="dropbtn">Services <i class="fa-solid fa-chevron-down"></i></button>
+                 <div className="dropdown-content">
                      <a onClick={()=>navigate('/facebookads')}><img src={face} alt="" className="icon"></img>  Facebook Ads</a>
                      <a onClick={()=>navigate('/googleads')}><img src={google} alt="" className="icon"></img>  Google PPC Ads</a>
                      <a onClick={()=>navigate('/tiktokads')}><img src={tiktok} alt="" className="icon"></img>  Tiktok Ads</a>
@@ -36,7 +36,7 @@ function Sidebar(props){
                      <a onClick={()=>navigate('/bingads')}><img src={bing} alt="" className="icon"></img>  Bing Ads</a>
                      <a onClick={()=>navigate('/facebookads')}><img src={native} alt="" className="icon"></img>  Native Ads </a>
                    </div>
-                </div>
+                 </div>
       <a className="menu-item" onClick={()=>navigate('/pricing')}>
         Pricing
       </a>
@@ -44,7 +44,7 @@ function Sidebar(props){
         Teams
       </a>
     </Menu>
-      <img src={logo} className="logo mob-logo" alt=""></img>
+      <img src={logo} className="logo mob-logo" onClick={()=>navigate('/')} alt=""></img>
       </div>
         );
 }

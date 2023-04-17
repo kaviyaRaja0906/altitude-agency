@@ -16,7 +16,7 @@ function Navbar(){
         <div className="Navbar">
         <div className="row">
            <div className="logo">
-               <img className="logo" src={logo} alt=""></img>
+               <img className="logo" src={logo} alt="" onClick={() => navigate('/')}></img>
            </div>
            <div className="menu">
              <ul className="row">
